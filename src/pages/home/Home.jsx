@@ -28,7 +28,7 @@ const Home = () => {
 			<div className="home-content">
 				<div className="home-data">
 					<h1 className="home-title">
-						I'm Suraj Tade. <span ref={autoText}> Web Developer</span>
+						I'm Suraj Tade. <span ref={autoText}></span>
 					</h1>
 
 					<p className="home-description">
