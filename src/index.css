@@ -264,7 +264,7 @@
 
 @media screen and (max-width: 450px) {
 	.home-title {
-		font-size: var(--h1-font-size);
+		font-size: var(--h1-half-font-size);
 	}
 
 	.home-description {

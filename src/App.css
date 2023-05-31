@@ -21,6 +21,7 @@
 	--second-font: "Poppins", sans-serif;
 
 	--h1-font-size: 3.125rem;
+	--h1-half-font-size: 2.5rem;
 	--h2-font-size: 2rem;
 	--h3-font-size: 1.5rem;
 
@@ -48,6 +49,7 @@
 @media screen and (max-width: 1200px) {
 	:root {
 		--h1-font-size: 2rem;
+		--h1-half-font-size: 1.6rem;
 		--h2-font-size: 1.5rem;
 		--h3-font-size: 1.25rem;
 
