@@ -1,0 +1,57 @@
+.contact-links-container {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-link-box {
+	border: 1px solid var(--border-color);
+	padding: 20px 30px 25px;
+	border-radius: 5px;
+}
+
+.profile-link-box img {
+	width: 50px;
+	height: auto;
+}
+
+.profile-link-title {
+	color: var(--first-color);
+	font-size: var(--h3-font-size);
+}
+
+.profile-link-description {
+	color: var(--title-color);
+	font-size: var(--small-font-size);
+	line-height: 1.6;
+}
+
+.socials-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.social-link-box {
+	border: 1px solid var(--border-color);
+	padding: 20px 30px 25px;
+	border-radius: 5px;
+}
+
+.social-link-box a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.social-link-logo svg {
+	width: 25px;
+	height: 25px;
+	color: var(--first-color);
+}
+
+.social-link-title {
+	font-size: var(--small-font-size);
+}
+
+.social-link-description {
+	color: var(--title-color);
+	font-size: var(--small-font-size);
+}
