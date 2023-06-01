@@ -178,7 +178,7 @@ export const personalInfo = [
 
 	{
 		id: 8,
-		title: "Langages : ",
+		title: "Languages : ",
 		description: "Hindi, English, Marathi",
 	},
 ];
