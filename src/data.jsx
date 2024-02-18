@@ -68,14 +68,14 @@ export const profileLinks = [
 		id: 1,
 		title: "LeetCode",
 		logo: leetcodeLogo,
-		note: "Max Rating: 1722, Problems: 380+",
+		note: "Max Rating: 1722, Problems: 540+",
 		link: "https://leetcode.com/suraj_tade/",
 	},
 	{
 		id: 2,
 		title: "GeeksForGeeks",
 		logo: gfgLogo,
-		note: "Max Streak: 121 Days, Problems: 380+",
+		note: "Max Streak: 162 Days, Problems: 450+",
 		link: "https://auth.geeksforgeeks.org/user/surajtade20/practice",
 	},
 	{
@@ -186,7 +186,7 @@ export const personalInfo = [
 export const stats = [
 	{
 		id: 1,
-		no: "400+",
+		no: "600+",
 		title: "DSA Problems <br /> solved",
 	},
 
@@ -212,11 +212,11 @@ export const stats = [
 export const resume = [
 	{
 		id: 1,
-		category: "",
+		category: "experience",
 		icon: <FaBriefcase />,
-		year: "2018 - PRESENT",
-		title: "Web Developer <span> Envato </span>",
-		desc: "",
+		year: "2023 - PRESENT",
+		title: "Intern <span> PTC </span>",
+		desc: "ATXT Platform Development",
 	},
 
 	{
@@ -375,7 +375,7 @@ export const portfolio = [
 	{
 		id: 2,
 		img: Work2,
-		title: "TE AI Cup",
+		title: "TE Connectivity AI Cup 2023",
 		details: [
 			{
 				icon: <FiFileText />,
@@ -387,11 +387,6 @@ export const portfolio = [
 				title: "Language : ",
 				desc: "Python",
 			},
-			// {
-			// 	icon: <FiExternalLink />,
-			// 	title: "Preview : ",
-			// 	desc: "https://www.dribble.com",
-			// },
 		],
 	},
 

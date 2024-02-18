@@ -61,7 +61,7 @@ const About = () => {
 			<section className="resume-experience">
 				<h3 className="section-subtitle subtitle-center">Experience</h3>
 
-				<h2>No Professional experience yet, Willing to work!</h2>
+				{/* <h2>No Professional experience yet, Willing to work!</h2> */}
 
 				<div className="resume-container">
 					<div className="resume-data">
