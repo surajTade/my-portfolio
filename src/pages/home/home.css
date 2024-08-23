@@ -7,9 +7,10 @@
 
 .home-img {
 	width: 50vw;
-	height: auto;
+	height: 80vh;
 	object-fit: cover;
 	border-radius: 30px;
+	object-position: top;
 	box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
 }
 
