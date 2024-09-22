@@ -1,5 +1,5 @@
 import "./home.css";
-import profile from "../../assets/me_v3.png";
+import profile from "../../assets/me_v3-min.png";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import Typed from "typed.js";
