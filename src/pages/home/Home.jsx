@@ -37,12 +37,21 @@ const Home = () => {
             and improve upon skills.
           </p>
 
-          <Link to="/about" className="btn">
-            More About Me
-            <span className="btn-icon">
-              <FaArrowRight />
-            </span>
-          </Link>
+          <div className="jump-links">
+            <Link to="/about" className="btn">
+              More About Me
+              <span className="btn-icon">
+                <FaArrowRight />
+              </span>
+            </Link>
+
+            <Link to="/portfolio" className="btn">
+              Jump To Projects!
+              <span className="btn-icon">
+                <FaArrowRight />
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="color-block"></div>
