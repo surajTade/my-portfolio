@@ -265,7 +265,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2019 - 2020",
-    title: "SSC <span> Army Public School, Devlali </span>",
+    title: "HSC <span> Army Public School, Devlali </span>",
     desc: "CBSE Board, Result: 93.4%",
   },
 
@@ -274,7 +274,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2017 - 2018",
-    title: "HSC <span> Army Public School, Devlali </span>",
+    title: "SSC <span> Army Public School, Devlali </span>",
     desc: "CBSE Board, Result: 89%",
   },
 ];
