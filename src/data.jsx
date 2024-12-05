@@ -16,6 +16,7 @@ import { FiFileText, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/anantya.png";
 import Work2 from "./assets/teAICup.png";
 import Work3 from "./assets/tenziesGame.png";
+import Work4 from "./assets/eventory.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -176,7 +177,7 @@ export const personalInfo = [
   {
     id: 7,
     title: "Email : ",
-    description: "suraj.tade20@pccoepune.org",
+    description: "surajtade1029@gmail.com",
   },
 ];
 
@@ -281,75 +282,82 @@ export const resume = [
 
 export const skills = [
   {
-    id: 1,
-    title: "C/C++",
-    percentage: "80",
+    category: "Programming Languages",
+    children: [
+      { id: 1, title: "C", percentage: "80" },
+      { id: 2, title: "C++", percentage: "80" },
+      { id: 3, title: "Java", percentage: "70" },
+      { id: 4, title: "Python", percentage: "60" },
+      { id: 5, title: "JavaScript", percentage: "75" },
+      { id: 6, title: "TypeScript", percentage: "70" },
+    ],
   },
-
   {
-    id: 2,
-    title: "Python",
-    percentage: "60",
+    category: "Web Development",
+    children: [
+      { id: 7, title: "React.js", percentage: "75" },
+      { id: 8, title: "Node.js", percentage: "65" },
+      { id: 9, title: "Express.js", percentage: "60" },
+      { id: 10, title: "Tailwind CSS", percentage: "75" },
+      { id: 11, title: "WebSockets", percentage: "60" },
+    ],
   },
-
   {
-    id: 3,
-    title: "Java",
-    percentage: "70",
+    category: "Databases",
+    children: [
+      { id: 12, title: "MySQL", percentage: "60" },
+      { id: 13, title: "PostgreSQL", percentage: "60" },
+      { id: 14, title: "MongoDB", percentage: "70" },
+      { id: 15, title: "Firebase", percentage: "65" },
+    ],
   },
-
   {
-    id: 4,
-    title: "Javascript",
-    percentage: "75",
+    category: "Cloud & DevOps",
+    children: [
+      {
+        id: 16,
+        title: "AWS (EC2, S3, DynamoDB, CDNs, Load Balancers)",
+        percentage: "60",
+      },
+      { id: 17, title: "Docker", percentage: "65" },
+      { id: 18, title: "Containerization", percentage: "60" },
+      { id: 19, title: "Object Storage", percentage: "60" },
+    ],
   },
-
   {
-    id: 5,
-    title: "MySQL DB",
-    percentage: "60",
+    category: "Machine Learning",
+    children: [
+      { id: 20, title: "OpenCV", percentage: "50" },
+      { id: 21, title: "Transfer Learning", percentage: "50" },
+      { id: 22, title: "scikit-learn", percentage: "50" },
+    ],
   },
-
   {
-    id: 6,
-    title: "MongoDB",
-    percentage: "70",
+    category: "API Integration",
+    children: [
+      { id: 23, title: "REST APIs", percentage: "70" },
+      { id: 24, title: "WebSocket APIs", percentage: "60" },
+    ],
   },
-
   {
-    id: 7,
-    title: "Git/GitHub",
-    percentage: "75",
+    category: "Version Control",
+    children: [{ id: 25, title: "Git/GitHub", percentage: "75" }],
   },
-
   {
-    id: 8,
-    title: "React.js",
-    percentage: "75",
+    category: "Design Tools",
+    children: [
+      { id: 26, title: "Figma", percentage: "60" },
+      { id: 27, title: "Adobe Photoshop", percentage: "60" },
+    ],
   },
-
   {
-    id: 9,
-    title: "Figma",
-    percentage: "60",
-  },
-
-  {
-    id: 10,
-    title: "CSS",
-    percentage: "75",
-  },
-
-  {
-    id: 11,
-    title: "Photoshop",
-    percentage: "60",
-  },
-
-  {
-    id: 12,
-    title: "Canva",
-    percentage: "60",
+    category: "Test Automation",
+    children: [
+      { id: 28, title: "Playwright", percentage: "55" },
+      { id: 29, title: "Jest", percentage: "55" },
+      { id: 30, title: "JUnit", percentage: "60" },
+      { id: 31, title: "Mockito", percentage: "60" },
+    ],
   },
 ];
 
@@ -379,6 +387,29 @@ export const portfolio = [
 
   {
     id: 2,
+    img: Work4,
+    title: "Event Listing Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Eventory",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Stack : ",
+        desc: "ReactJs, Firebase, TailwindCSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://anantya2023.pccoe.hosting.acm.org/",
+      },
+    ],
+  },
+
+  {
+    id: 3,
     img: Work2,
     title: "TE Connectivity AI Cup 2023",
     details: [
@@ -396,7 +427,7 @@ export const portfolio = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: Work3,
     title: "Tenzies Game",
     details: [

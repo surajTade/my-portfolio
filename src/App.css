@@ -2,177 +2,177 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-	--first-color: hsl(19, 96%, 52%); /* hsl(271, 76%, 53%) */
-	--title-color: hsl(0, 0%, 100%);
-	--text-color: hsl(0, 0%, 80%);
-	--body-color: hsl(0, 0%, 7%);
-	--container-color: hsl(0, 1%, 17%);
-	--border-color: hsl(0, 0%, 15%);
+  --first-color: hsl(19, 96%, 52%); /* hsl(271, 76%, 53%) */
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 80%);
+  --body-color: hsl(0, 0%, 7%);
+  --container-color: hsl(0, 1%, 17%);
+  --border-color: hsl(0, 0%, 15%);
 
-	--text-white: #fff;
+  --text-white: #fff;
 
-	--body-font: "Open Sans", sans-serif;
-	--second-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --second-font: "Poppins", sans-serif;
 
-	--h1-font-size: 3.125rem;
-	--h1-half-font-size: 2.5rem;
-	--h2-font-size: 2rem;
-	--h3-font-size: 1.5rem;
+  --h1-font-size: 3.125rem;
+  --h1-half-font-size: 2.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.5rem;
 
-	--tiny-font-size: 0.75rem;
-	--small-font-size: 0.9375rem;
-	--normal-font-size: 1rem;
-	--large-font-size: 1.125rem;
-	--big-font-size: 3.5rem;
+  --tiny-font-size: 0.75rem;
+  --small-font-size: 0.9375rem;
+  --normal-font-size: 1rem;
+  --large-font-size: 1.125rem;
+  --big-font-size: 3.5rem;
 
-	--weight-400: 400;
-	--weight-500: 500;
-	--weight-600: 600;
-	--weight-700: 700;
-	--weight-800: 800;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
 }
 
 .light-theme {
-	--title-color: hsl(0, 0%, 40%);
-	--text-color: hsl(0, 0%, 50%);
-	--body-color: hsl(0, 0%, 100%);
-	--container-color: hsl(0, 0%, 93%);
-	--border-color: hsl(0, 0%, 87%);
+  --title-color: hsl(0, 0%, 40%);
+  --text-color: hsl(0, 0%, 50%);
+  --body-color: hsl(0, 0%, 100%);
+  --container-color: hsl(0, 0%, 93%);
+  --border-color: hsl(0, 0%, 87%);
 }
 
 @media screen and (max-width: 1200px) {
-	:root {
-		--h1-font-size: 2rem;
-		--h1-half-font-size: 1.6rem;
-		--h2-font-size: 1.5rem;
-		--h3-font-size: 1.25rem;
+  :root {
+    --h1-font-size: 2rem;
+    --h1-half-font-size: 1.6rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
 
-		--tiny-font-size: 0.6875rem;
-		--small-font-size: 0.875rem;
-		--normal-font-size: 0.9375rem;
-		--large-font-size: 1rem;
-		--big-font-size: 2.25rem;
-	}
+    --tiny-font-size: 0.6875rem;
+    --small-font-size: 0.875rem;
+    --normal-font-size: 0.9375rem;
+    --large-font-size: 1rem;
+    --big-font-size: 2.25rem;
+  }
 }
 
 body,
 input,
 textarea {
-	font-family: var(--body-font);
-	font-size: var(--normal-font-size);
-	font-weight: var(--weight-500);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
 
-	background-color: transparent;
-	border: none;
-	outline: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 body {
-	background-color: var(--body-color);
-	color: var(--text-color);
+  background-color: var(--body-color);
+  color: var(--text-color);
 }
 
 h1,
 h2,
 h3,
 h4 {
-	color: var(--title-color);
-	font-family: var(--second-font);
-	font-weight: var(--weight-700);
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--weight-700);
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .grid {
-	display: grid;
-	gap: 30px;
+  display: grid;
+  gap: 30px;
 }
 
 .container {
-	max-width: 1140px;
-	margin-inline: auto;
-	padding-inline: 15px;
+  max-width: 1140px;
+  margin-inline: auto;
+  padding-inline: 15px;
 }
 
 .section {
-	padding-block: 50px;
+  padding-block: 50px;
 }
 
 .section-title {
-	font-size: var(--big-font-size);
-	font-weight: var(--weight-800);
-	text-align: center;
-	margin-bottom: 70px;
+  font-size: var(--big-font-size);
+  font-weight: var(--weight-800);
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 .section-title span {
-	color: var(--first-color);
+  color: var(--first-color);
 }
 
 .btn {
-	display: inline-block;
-	color: var(--text-color);
-	border: 1px solid var(--first-color);
-	padding: 15px 70px 15px 35px;
-	border-radius: 35px;
-	font-family: var(--second-font);
-	font-size: var(--small-font-size);
-	font-weight: var(--weight-500);
-	position: relative;
-	overflow: hidden;
-	transition: all 0.25s ease-in-out;
-	z-index: 1;
+  display: inline-block;
+  color: var(--text-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 70px 15px 35px;
+  border-radius: 35px;
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-500);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
 }
 
 .btn:hover {
-	color: var(--text-white);
+  color: var(--text-white);
 }
 
 .btn::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	transform: translateX(-100%);
-	background-color: var(--first-color);
-	z-index: -1;
-	transition: all 0.3s ease-out;
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background-color: var(--first-color);
+  z-index: -1;
+  transition: all 0.3s ease-out;
 }
 
 .btn:hover::before {
-	transform: translateX(0);
+  transform: translateX(0);
 }
 
 .btn-icon {
-	background-color: var(--first-color);
-	position: absolute;
-	inset-block: -2px;
-	right: 0;
-	width: 55px;
-	border-radius: 50%;
-	color: var(--text-white);
-	font-size: var(--large-font-size);
-	text-align: center;
-	line-height: 60px;
+  background-color: var(--first-color);
+  position: absolute;
+  inset-block: -2px;
+  right: 0;
+  width: 55px;
+  border-radius: 50%;
+  color: var(--text-white);
+  font-size: var(--large-font-size);
+  text-align: center;
+  line-height: 60px;
 }
 
 .seperator {
-	border-top: 1px solid var(--border-color);
-	max-width: 40%;
-	margin: 72px auto 56px;
+  border-top: 1px solid var(--border-color);
+  max-width: 40%;
+  margin: 72px auto 56px;
 }
